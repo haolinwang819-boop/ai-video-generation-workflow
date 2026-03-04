@@ -1,0 +1,11 @@
+# Python dependencies for optional helper scripts at repo root.
+# Core TypeScript pipeline under src/ does not require these unless you use python helpers.
+
+google-genai>=1.30.0
+elevenlabs>=1.9.0
+mutagen>=1.47.0
+edge-tts>=6.1.12
+
+# Optional utilities used in manual slide/image workflows:
+Pillow>=10.0.0
+PyMuPDF>=1.24.0
